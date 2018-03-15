@@ -1,11 +1,6 @@
 {
     "name": "pinzweb/console",
     "description": "A Package to make a console like interface",
-    "type": "package",
-    "require": {
-        "php": ">=7.1.0"
-    },
-    "license": "mit",
     "authors": [
         {
             "name": "Daniel Fankhauser",
@@ -13,7 +8,13 @@
             "homepage": "http://www.pinzweb.at"
         }
     ],
-    "minimum-stability": "stable",
+    "require": {
+        "php": ">=7.1.0"
+    },
+    "minimum-stability": "stable",    
+    "version": "1.0.0",
+    "type": "package",
+    "license": "GPL-3.0",
     "autoload": {
         "psr-4": {
             "pinzweb\\Console\\": "src/"
